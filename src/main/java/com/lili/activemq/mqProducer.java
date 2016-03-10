@@ -11,7 +11,12 @@ import javax.jms.TextMessage;
 
 import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
-
+/**
+ * 前提：下载activemq 启动bin/.bat 然后运行producer 
+ * 若是使用topic，先运行consumer，进行订阅才能收到消息，然后运行producer
+ * @author jh
+ *
+ */
 public class mqProducer {
 
 	private static final String USER = ActiveMQConnection.DEFAULT_USER;
