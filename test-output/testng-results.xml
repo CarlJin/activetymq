@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="131" started-at="2016-03-09T03:04:26Z" finished-at="2016-03-09T03:04:26Z">
+  <suite name="Default suite" duration-ms="120037" started-at="2016-03-24T05:30:49Z" finished-at="2016-03-24T05:32:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="131" started-at="2016-03-09T03:04:26Z" finished-at="2016-03-09T03:04:26Z">
-      <class name="com.lili.activemq.mqConsumerTest">
-        <test-method status="PASS" signature="f()[pri:0, instance:com.lili.activemq.mqConsumerTest@5d1ae567]" name="f" duration-ms="56" started-at="2016-03-09T11:04:26Z" finished-at="2016-03-09T11:04:26Z">
+    <test name="Default test" duration-ms="120037" started-at="2016-03-24T05:30:49Z" finished-at="2016-03-24T05:32:49Z">
+      <class name="com.lili.quartz.QuertzTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.lili.quartz.QuertzTest@2303b1e4]" name="test" duration-ms="120018" started-at="2016-03-24T13:30:49Z" finished-at="2016-03-24T13:32:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- com.lili.activemq.mqConsumerTest -->
+        </test-method> <!-- test -->
+      </class> <!-- com.lili.quartz.QuertzTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
